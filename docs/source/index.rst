@@ -11,7 +11,7 @@ Welcome to Logistic Management Tool's documentation!
    :caption: Contents:
 
    steps/structure.rst
-   
+   steps/jels.rst
 
 
 

@@ -1,11 +1,13 @@
 Joint Economic Lot Size Calculator
 ------------------------------------
 
-= Purpose:
+Purpose
+~~~~~~~~~~~~
 
 To find the optimal (in terms of costs) lot size and the optimal shipping routine (in terms of number of shipment and quantity of products shipped)
 
-= Inputs:
+Inputs
+~~~~~~~~~~~~
 
 * Setup cost Csu:
     * Measure unit: [€/setup]
@@ -40,7 +42,8 @@ To find the optimal (in terms of costs) lot size and the optimal shipping routin
     * Domain: G ∈ R, 1<= G <=P/D
     * Description: rate of increase in the quantity of products shippents from one shipment to the next one. Initialized at G= 1
 
-= Outputs:
+Outputs
+~~~~~~~~~~~~
 
 * Optimal shipments number Nopt:
     * Measure unit: [shipments/lot]
@@ -64,14 +67,16 @@ To find the optimal (in terms of costs) lot size and the optimal shipping routin
     * Domain: N\0
 * Storage graphics over time for vendor and buyer
 
-= Functions:
+Functions
+~~~~~~~~~~~~
 
 * Size [pieces] of first shipment q1= q1(n, I)
 * Size [pieces] of nth shipment qn= qn(q1, I)
 * Lot size [pieces] Q= Q(q1)= Q(n, I)
 * Lot management cost [€/year] C= C(q1)= C(n, I)
 
-= Steps:
+Steps
+~~~~~~~~~~~~
 
 1. For n=1, the tool tries different values of I and calculates the resulting costs C(n=1, I)
 2. The tool finds the minimum cost Copt(n=1)
@@ -80,8 +85,8 @@ To find the optimal (in terms of costs) lot size and the optimal shipping routin
 5. The tool verifies that Copt(n=1)>=Copt(n=n+1)
 6. The tool continues to increment the value of n until Copt(n)>=Copt(n=n+1) is false
 7. The optimal values are:
-    *Nopt= n-1
-    *Copt= C(n-1)
-    *Iopt= I(n-1)
-    *Qopt= Q(n-1)
+    * Nopt= n-1
+    * Copt= C(n-1)
+    * Iopt= I(n-1)
+    * Qopt= Q(n-1)
 
