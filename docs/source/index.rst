@@ -7,7 +7,7 @@ Welcome to Logistic Management Tool's documentation!
 ====================================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 20
    :caption: Contents:
 
    steps/structure.rst
