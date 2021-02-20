@@ -29,7 +29,7 @@ Outputs
 
 :PMIM: A *n*x*m* matrix where n is the number of unique types of workshops and m is the number of different parts. 
 
-                                Each element of the matrix may contain:
+        Each element of the matrix may contain:
 
-                                * 1 if the product visits the corresponding workshop
-                                * 0 otherwise.
+        * 1 if the product visits the corresponding workshop
+        * 0 otherwise.

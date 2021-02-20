@@ -16,8 +16,7 @@ Inputs
 * From-to chart ordered by single workshops: we are evaluating the impact of the duplication of single machines inside clusters, so the change in the flow of material have
     to be evaluated by single machines and not from cluster to cluster
 
-* Part-machine incidence matrix ordered by clusters: this time we take the composition of clusters into account to differenciate between inside-cell flows and outside-cell
-flows. We only need to consider the latter.
+* Part-machine incidence matrix ordered by clusters: this time we take the composition of clusters into account to differenciate between inside-cell flows and outside-cell flows. We only need to consider the latter.
 
 * Cost of machines
 

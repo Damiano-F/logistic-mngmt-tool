@@ -7,14 +7,14 @@ Welcome to Logistic Management Tool's documentation!
 ====================================================
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 2
    :caption: Overview
 
    steps/structure.rst
 
 
 .. toctree::
-   :maxdepth: 8
+   :maxdepth: 2
    :caption: First Stage
 
    steps/first-stage/pmim.rst
@@ -25,7 +25,7 @@ Welcome to Logistic Management Tool's documentation!
 
 
 .. toctree::
-   :maxdepth: 6
+   :maxdepth: 2
    :caption: Second Stage
 
    steps/second-stage/similarity-matrix.rst
@@ -34,7 +34,7 @@ Welcome to Logistic Management Tool's documentation!
 
 
 .. toctree::
-   :maxdepth: 5
+   :maxdepth: 2
    :caption: Third Stage
 
    steps/third-stage/from-to-chart.rst
@@ -42,7 +42,7 @@ Welcome to Logistic Management Tool's documentation!
 
 
 .. toctree::
-   :maxdepth: 6
+   :maxdepth: 2
    :caption: Fourth Stage
 
    steps/fourth-stage/material-handling-cost.rst
@@ -51,7 +51,7 @@ Welcome to Logistic Management Tool's documentation!
    
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 2
    :caption: JELS
 
    steps/jels.rst
