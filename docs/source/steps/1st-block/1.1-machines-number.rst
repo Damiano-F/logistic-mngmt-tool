@@ -16,7 +16,7 @@ Inputs
 * Daily demand of parts/products for the process considered 
 
 * Bill of Materials: for every finished product, it listst the quantity and quality of raw materials and parts required to produce it, so it defines the flow generated
-    by one single product inside the plant
+by one single product inside the plant
 
 * Parts-machines incidence matrix: see PMIM documentation
 

@@ -18,7 +18,7 @@ Inputs
 ~~~~~~~~~~~~
 
 * Bill of Materials: for every finished product, it listst the quantity and quality of raw materials and parts required to produce it, so it defines the flow generated
-    by one single product inside the plant (but we are not interested in the quantity information to build the PMIM)
+by one single product inside the plant (but we are not interested in the quantity information to build the PMIM)
 
 * Production cycles: for every product or part, the sequence of workshops visited and informations about the machining process, like the processing times
 

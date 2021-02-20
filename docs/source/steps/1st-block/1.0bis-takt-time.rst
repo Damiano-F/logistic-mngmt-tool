@@ -12,7 +12,7 @@ Inputs
 ~~~~~~~~~~~~
 
 * Bill of Materials: for every finished product, it listst the quantity and quality of raw materials and parts required to produce it, so it defines the flow generated
-    by one single product inside the plant
+by one single product inside the plant
 
 * Daily demand of parts/products for the process considered 
 
@@ -21,7 +21,7 @@ Inputs
 * Parts-machines incidence matrix: see PMIM documentation
 
 * Production cycles: for every product or part, the sequence of workshops visited and informations about the machining process, like the processing times. The production
-    cycles are necessary to calculate the takt time to check if a machining process is repeated more than one time inside the cycle
+cycles are necessary to calculate the takt time to check if a machining process is repeated more than one time inside the cycle
 
 Outputs
 ~~~~~~~~~~~~

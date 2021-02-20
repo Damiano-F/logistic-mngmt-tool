@@ -19,7 +19,7 @@ Inputs
 * From-to chart: see from-to chart documentation
 
 * Qualitative relations matrix: similar to the similarity matrix, it represents the qualitative relations between clusters (or workshops) for what regards qualitative
-    characteristics like safety, communication needs with other clusters etc.
+characteristics like safety, communication needs with other clusters etc.
 
 * Other custom boundaries about clusters positions
 
