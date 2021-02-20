@@ -1,0 +1,30 @@
+Number of machines Calculator
+------------------------------------
+
+Context
+~~~~~~~~~~~~
+
+To manage the flow of a certain quantity of materials trough the plant, there needs to be enough processing power available. It is possible to calculate the number of 
+machines needed in every workshop as a ratio between the total processing time for a day of production and the working time available to a single machine in a day.
+For example, with 9600 minutes of processing/day and 960 minutes of work/day, the workshop will need exactly 10 machines. 
+
+Inputs
+~~~~~~~~~~~~
+
+* Production cycles: for every product or part, the sequence of workshops visited and informations about the machining process, like the processing times
+
+* Daily demand of parts/products for the process considered 
+
+* Bill of Materials: for every finished product, it listst the quantity and quality of raw materials and parts required to produce it, so it defines the flow generated
+    by one single product inside the plant
+
+* Parts-machines incidence matrix: see PMIM documentation
+
+* Available working time in a day for every workshop, considering also pauses and machine downtimes, usually in minutes/day
+
+Outputs
+~~~~~~~~~~~~
+
+* Number of machines per workshop, rounded to the first upper integer
+
+* Total machining time over one day
