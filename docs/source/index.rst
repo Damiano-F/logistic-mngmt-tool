@@ -7,25 +7,54 @@ Welcome to Logistic Management Tool's documentation!
 ====================================================
 
 .. toctree::
-   :maxdepth: 20
-   :caption: Contents:
+   :maxdepth: 2
+   :caption: Overview
 
    steps/structure.rst
-   steps/1st-block/1.0-pmim.rst
-   steps/1st-block/1.0bis-takt-time.rst
-   steps/1st-block/1.1-machines-number.rst
-   steps/1st-block/1.2-sequencing.rst
-   steps/1st-block/1.3-operators-number.rst
-   steps/2nd-block/2.0-similarity-matrix.rst
-   steps/2nd-block/2.1-clustering-algorithms.rst
-   steps/2nd-block/2.2-parts-assignment.rst
-   steps/3rd-block/3.0-from-to-chart.rst
-   steps/3rd-block/3.1-block-layout-formation.rst
-   steps/4th-block/4.0-material-handling-cost.rst
-   steps/4th-block/4.1-duplication-model.rst
-   steps/4th-block/4.2-operators-optimization.rst
-   steps/jels.rst
 
+
+.. toctree::
+   :maxdepth: 2
+   :caption: First Stage
+
+   steps/first-stage/pmim.rst
+   steps/first-stage/takt-time.rst
+   steps/first-stage/machines-number.rst
+   steps/first-stage/sequencing.rst
+   steps/first-stage/operators-number.rst
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Second Stage
+
+   steps/second-stage/similarity-matrix.rst
+   steps/second-stage/clustering-algorithms.rst
+   steps/second-stage/parts-assignment.rst
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Third Stage
+
+   steps/third-stage/from-to-chart.rst
+   steps/third-stage/block-layout-formation.rst
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Fourth Stage
+
+   steps/fourth-stage/material-handling-cost.rst
+   steps/fourth-stage/duplication-model.rst
+   steps/fourth-stage/operators-optimization.rst
+   
+
+.. toctree::
+   :maxdepth: 2
+   :caption: JELS
+
+   steps/jels.rst
 
 
 Indices and tables
