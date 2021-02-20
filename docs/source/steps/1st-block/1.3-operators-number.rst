@@ -1,4 +1,4 @@
-Number of operators Calculator
+Operators Assignment
 ------------------------------------
 
 Context

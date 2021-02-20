@@ -1,4 +1,4 @@
-Number of machines Calculator
+Number of machines 
 ------------------------------------
 
 Context

@@ -1,4 +1,4 @@
-Takt Time Calculator
+Takt Time 
 ----------------------
 
 Context

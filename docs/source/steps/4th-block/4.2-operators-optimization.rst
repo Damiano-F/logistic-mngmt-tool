@@ -1,4 +1,4 @@
-Operators Optimization After Clustering
+Operators Optimization
 ------------------------------------------
 
 Context

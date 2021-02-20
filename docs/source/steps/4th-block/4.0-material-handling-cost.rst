@@ -1,4 +1,4 @@
-Cost of Material Handling Calculator
+Cost of Material Handling 
 ------------------------------------
 
 Context
