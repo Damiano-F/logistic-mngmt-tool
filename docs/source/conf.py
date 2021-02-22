@@ -19,10 +19,10 @@ import sphinx_rtd_theme
 # -- Project information -----------------------------------------------------
 
 project = 'Logistic Management Tool'
-copyright = '2021, Damiano Fontanella and Aras Ashraf Gandomi'
-author = 'Damiano Fontanella and Aras Ashraf Gandomi'
+copyright = '2021, Damiano Fontanella & Aras Ashraf Gandomi'
+author = 'Damiano Fontanella & Aras Ashraf Gandomi'
 
-
+master_doc = 'index'
 # -- General configuration ---------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
@@ -30,6 +30,7 @@ author = 'Damiano Fontanella and Aras Ashraf Gandomi'
 # ones.
 extensions = [
     'sphinx_rtd_theme',
+    'sphinx.ext.mathjax',
 ]
 
 # Add any paths that contain templates here, relative to this directory.

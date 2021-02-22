@@ -10,8 +10,7 @@ Welcome to Logistic Management Tool's documentation!
    :maxdepth: 2
    :caption: Overview
 
-   steps/structure.rst
-
+   structure.rst
 
 .. toctree::
    :maxdepth: 2
@@ -19,9 +18,9 @@ Welcome to Logistic Management Tool's documentation!
 
    steps/first-stage/pmim.rst
    steps/first-stage/takt-time.rst
-   steps/first-stage/machines-number.rst
+   steps/first-stage/machines-estimate.rst
    steps/first-stage/sequencing.rst
-   steps/first-stage/operators-number.rst
+   steps/first-stage/operators-assignment.rst
 
 
 .. toctree::
