@@ -1,9 +1,8 @@
 # Logistic Management Tool
 
-TO DO:
--Descrizione progetto (scritto in python)
+This project is a suite of tools for logistic management.
+
+It aims to feature: ...
 
 Read the docs at: https://logistic-mngmt-tool.readthedocs.io/en/latest/
 
-Required Python packages: 
-- sphinxcontrib-jsmath
