@@ -16,37 +16,37 @@ Welcome to Logistic Management Tool's documentation!
    :maxdepth: 2
    :caption: First Stage
 
-   steps/first-stage/pmim.rst
-   steps/first-stage/takt-time.rst
-   steps/first-stage/machines-estimate.rst
-   steps/first-stage/sequencing.rst
-   steps/first-stage/operators-assignment.rst
+   steps/stage-one/pmim.rst
+   steps/stage-one/takt-time.rst
+   steps/stage-one/machines-estimate.rst
+   steps/stage-one/sequencing.rst
+   steps/stage-one/operators-assignment.rst
 
 
 .. toctree::
    :maxdepth: 2
    :caption: Second Stage
 
-   steps/second-stage/similarity-matrix.rst
-   steps/second-stage/clustering-algorithms.rst
-   steps/second-stage/parts-assignment.rst
+   steps/stage-two/similarity-matrix.rst
+   steps/stage-two/clustering-algorithms.rst
+   steps/stage-two/parts-assignment.rst
 
 
 .. toctree::
    :maxdepth: 2
    :caption: Third Stage
 
-   steps/third-stage/from-to-chart.rst
-   steps/third-stage/block-layout-formation.rst
+   steps/stage-three/from-to-chart.rst
+   steps/stage-three/block-layout-formation.rst
 
 
 .. toctree::
    :maxdepth: 2
    :caption: Fourth Stage
 
-   steps/fourth-stage/material-handling-cost.rst
-   steps/fourth-stage/duplication-model.rst
-   steps/fourth-stage/operators-optimization.rst
+   steps/stage-four/material-handling-cost.rst
+   steps/stage-four/duplication-model.rst
+   steps/stage-four/operators-optimization.rst
    
 
 .. toctree::
