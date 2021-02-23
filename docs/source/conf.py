@@ -10,11 +10,26 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
+import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
 import sphinx_rtd_theme
+
+on_rtd = os.environ.get('READTHEDOCS') == 'True'
+
+if on_rtd:
+    plantuml = 'java -Djava.awt.headless=true -jar /usr/share/plantuml/plantuml.jar'
+else:
+    cwd = os.getcwd()
+    plantuml = 'java -jar %s' % os.path.join(cwd, "utils/plantuml_beta.jar")
+
+if os.name == "nt":
+    plantuml = plantuml.replace("/", "\\")
+    plantuml = plantuml.replace("\\", "\\\\")
+
+plantuml_output_format = 'png'
+
 
 # -- Project information -----------------------------------------------------
 
@@ -31,6 +46,7 @@ master_doc = 'index'
 extensions = [
     'sphinx_rtd_theme',
     'sphinx.ext.mathjax',
+    'sphinxcontrib.plantuml',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -40,7 +56,6 @@ templates_path = ['_templates']
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = []
-
 
 # -- Options for HTML output -------------------------------------------------
 
