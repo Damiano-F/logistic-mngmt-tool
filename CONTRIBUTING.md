@@ -29,7 +29,7 @@ The first draft is almost never the best possible.
 Every line of text of the documentation must not exceed 80 characters.
 Every line of code must not exceed 120 characters.
 
-### ReStructured Text cheatsheet:
+### ReStructured Text cheatsheet
 
 ```
 
