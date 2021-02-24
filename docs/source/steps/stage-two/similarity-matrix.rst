@@ -21,8 +21,8 @@ Inputs
 
         Each element of the matrix may contain:
 
-        * 1 if the product visits the corresponding workshop
-        * 0 otherwise.
+        - 1 if the product visits the corresponding workshop
+        - 0 otherwise.
 
 :Daily demand:  A set of values representig the daily demand [pieces/day] of 
                 parts/products.

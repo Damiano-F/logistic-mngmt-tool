@@ -58,8 +58,8 @@ Inputs
 :Takt Times:    A *n*x*m* matrix where n is the number of unique types of 
                 workshops and m is the number of different parts.
             
-                Let i be the index of unique parts, i=1,...,m
-                Let j be the index of unique workshops, j=1,...,n
+                - Let i be the index of unique parts, i=1,...,m
+                - Let j be the index of unique workshops, j=1,...,n
             
                 Each element of the matrix contains the production rate [min/pz] 
                 of part i processed in workshop j.

@@ -35,8 +35,8 @@ Inputs
 
         Each element of the matrix may contain:
 
-        * 1 if the product visits the corresponding workshop
-        * 0 otherwise.
+        - 1 if the product visits the corresponding workshop
+        - 0 otherwise.
 
 :Shifting schedulation: A set of integer values representing the shifts per day 
                         [shifts/day] for every unique workshop in the plant.

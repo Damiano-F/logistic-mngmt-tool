@@ -7,7 +7,6 @@ Logistic Management Tool
 
 .. math::
 
-    \begin{gather}
     \begin{pmatrix}
     1 & \cdots & x^2 \\
     1 & \ddots & y^2 \\
@@ -25,7 +24,6 @@ Logistic Management Tool
     1 & \ddots & y^2 \\
     1 & \vdots & z^2 \\
     \end{pmatrix}
-    \end{gather}
 
 
 .. uml::

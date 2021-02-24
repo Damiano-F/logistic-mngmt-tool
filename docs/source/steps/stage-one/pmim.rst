@@ -38,5 +38,5 @@ Outputs
 
         Each element of the matrix may contain:
 
-        * 1 if the product visits the corresponding workshop
-        * 0 otherwise.
+        - 1 if the product visits the corresponding workshop
+        - 0 otherwise.
