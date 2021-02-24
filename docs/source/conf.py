@@ -20,7 +20,7 @@ if on_rtd:
     plantuml = 'java -Djava.awt.headless=true -jar /usr/share/plantuml/plantuml.jar'
 else:
     cwd = os.getcwd()
-    plantuml = 'java -jar %s' % os.path.join(cwd, "utils/plantuml_beta.jar")
+    plantuml = 'java -jar %s' % os.path.join(cwd, "utils/plantuml.jar")
 
 if os.name == "nt":
     plantuml = plantuml.replace("/", "\\")
