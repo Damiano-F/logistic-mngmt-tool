@@ -55,10 +55,8 @@ Welcome to Logistic Management Tool's documentation!
 
    steps/jels.rst
 
+.. toctree::
+   :maxdepth: 2
+   :caption: System Models
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   
