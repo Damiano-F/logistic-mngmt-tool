@@ -11,6 +11,7 @@ Properties:
 -   ID
 -   Type of machines
 -   Number of machines (init. at 0)
+-   Number of operators (init. at 0)
 -   Shifts
 -   Machine cost
 -   Storage area

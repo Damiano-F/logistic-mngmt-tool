@@ -23,7 +23,7 @@ Use Cases:
 
 Requirements:
 
--   
+-   Must be unmutable
 
 Production phase
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -54,4 +54,4 @@ Use Cases:
 
 Requirements:
 
--   
+-   Must be unmutable
