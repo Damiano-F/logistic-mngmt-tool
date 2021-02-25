@@ -14,6 +14,12 @@ Welcome to Logistic Management Tool's documentation!
 
 .. toctree::
    :maxdepth: 2
+   :caption: System Models
+
+   models/pmim.rst
+
+.. toctree::
+   :maxdepth: 2
    :caption: First Stage
 
    steps/stage-one/pmim.rst

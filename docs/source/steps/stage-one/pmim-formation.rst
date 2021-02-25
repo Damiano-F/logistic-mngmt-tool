@@ -1,4 +1,4 @@
-Part-Machine Incidence Matrix
+PMIM Formation
 --------------------------------------------------------------------------------
 
 Context
