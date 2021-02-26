@@ -16,13 +16,19 @@ Welcome to Logistic Management Tool's documentation!
    :maxdepth: 2
    :caption: System Models
 
+   models/part.rst
+   models/workshop.rst
+   models/prod-cycle.rst
    models/pmim.rst
+   models/similarity-matrix.rst
+   models/takt-table.rst
+   models/vehicle.rst
 
 .. toctree::
    :maxdepth: 2
    :caption: First Stage
 
-   steps/stage-one/pmim.rst
+   steps/stage-one/pmim-formation.rst
    steps/stage-one/takt-time.rst
    steps/stage-one/machines-estimate.rst
    steps/stage-one/sequencing.rst

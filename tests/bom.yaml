@@ -1,0 +1,13 @@
+# Example YAML BoM
+products:
+  # PRODUCT 1
+  - name:
+    id:
+    recipe:
+      - id:
+        quantity:
+      - id:
+        quantity:
+  # PRODUCT 2
+  - name:
+    id:
