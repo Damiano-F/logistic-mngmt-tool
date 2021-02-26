@@ -60,10 +60,13 @@ exclude_patterns = []
 # a list of builtin themes.
 #
 html_theme = "sphinx_material"
-html_theme_options = {
 
-    # Set the name of the project to appear in the navigation.
-    'nav_title': 'Logistic Management Tool',
+html_show_sourcelink = True
+html_sidebars = {
+    "**": ["logo-text.html", "globaltoc.html", "localtoc.html", "searchbox.html"]
+}
+
+html_theme_options = {
 
     # Set you GA account ID to enable tracking
     #'google_analytics_account': 'UA-XXXXX',
@@ -81,9 +84,9 @@ html_theme_options = {
     'repo_name': 'logistic-mngmt-tool',
 
     # Visible levels of the global TOC; -1 means unlimited
-    'globaltoc_depth': 3,
+    'globaltoc_depth': -1,
     # If False, expand all TOC entries
-    'globaltoc_collapse': True,
+    'globaltoc_collapse': False,
     # If True, show hidden TOC entries
     'globaltoc_includehidden': False,
 }
