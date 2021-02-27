@@ -11,7 +11,7 @@ Created in step "Creation of the Similarity Matrix".
 
 Properties:
 
--   Set of similarity values for every couple of workshops [local, variable]
+-   Cell elements [local, variable]
 
 Use Cases:
 
