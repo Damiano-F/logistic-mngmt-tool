@@ -33,7 +33,7 @@ Inputs
 Outputs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:PMIM:  A *n*x*m* matrix where *n* is the number of unique types of workshops 
+:PMIM:  A *n* x *m* matrix where *n* is the number of unique types of workshops 
         and *m* is the number of different parts. 
 
         Each element of the matrix may contain:

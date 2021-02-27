@@ -1,8 +1,6 @@
 Production cycle
 --------------------------------------------------------------------------------
 
-Definition:
-
 Ordered sequence of couples of workshops and production timings.
 
 Properties:

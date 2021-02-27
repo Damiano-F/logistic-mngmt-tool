@@ -21,7 +21,7 @@ desired by the user are excluded from the optimal solution.
 Inputs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Similarity matrix: An *n*x*n* matrix  where *n* is the number of unique types 
+:Similarity matrix: An *n* x *n* matrix  where *n* is the number of unique types 
                     of workshops. 
                     Each element contains a value between 0 and 1 representing 
                     the estimate of the similarity between two different 
@@ -39,7 +39,7 @@ Outputs
 :Clusters of workshops: A set of clusters. Each cluster contains a set of
                         workshops.
 
-:Clustered PMIM:    A *n*x*m* matrix where *n* is the number of unique types of 
+:Clustered PMIM:    A *n* x *m* matrix where *n* is the number of unique types of 
                     workshops and *m* is the number of different parts. 
 
                     Each element of the matrix may contain:

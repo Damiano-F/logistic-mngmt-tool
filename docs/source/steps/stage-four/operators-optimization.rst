@@ -13,7 +13,7 @@ operators assigned to every cell.
 Inputs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:New diagonalized PMIM: A *n*x*m* matrix where *n* is the number of unique types 
+:New diagonalized PMIM: A *n* x *m* matrix where *n* is the number of unique types 
                         of workshops and *m* is the number of different parts. 
 
                         Each element of the matrix may contain:
@@ -32,7 +32,7 @@ Inputs
                     machining times and operator times required to process one 
                     unit of the respective product.
 
-:Takt Times:  A *n*x*m* matrix where *n* is the number of unique types of 
+:Takt Times:  A *n* x *m* matrix where *n* is the number of unique types of 
               clusters and *m* is the number of different parts.
             
               Let i be the index of unique parts, i=1,...,m

@@ -25,7 +25,7 @@ cluster that processes flammable material can be dangerous.
 Inputs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:From-to Chart: An *n*x*n* matrix where *n* is the number of unique types 
+:From-to Chart: An *n* x *n* matrix where *n* is the number of unique types 
                 of workshops or clusters. 
                 Each element contains an integer representing the inbound or 
                 outbound flows [travels/day] between a workshop or cluster and

@@ -18,7 +18,7 @@ where.
 Inputs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:From-to Chart: An *n*x*n* matrix where *n* is the number of unique types 
+:From-to Chart: An *n* x *n* matrix where *n* is the number of unique types 
                 of workshops. 
                 Each element contains an integer representing the inbound or 
                 outbound flows [travels/day] between a workshop and
@@ -28,7 +28,7 @@ Inputs
             inside clusters, so the change in the flow of material have to be 
             evaluated by single machines and not from cluster to cluster.
 
-:Diagonalized PMIM: A *n*x*m* matrix where *n* is the number of unique types of 
+:Diagonalized PMIM: A *n* x *m* matrix where *n* is the number of unique types of 
                     workshops and *m* is the number of different parts. 
 
                     Each element of the matrix may contain:
@@ -48,7 +48,7 @@ Inputs
 :Machines costs:    A set of values [€] associating to each kind of machine its
                     purchasing cost.
 
-:Travel costs matrix:   An *n*x*n* matrix where *n* is the number of unique 
+:Travel costs matrix:   An *n* x *n* matrix where *n* is the number of unique 
                         types of workshops or clusters. 
                         Each element contains a value representing the cost of
                         one travel from and to a cluster or workshop and all
@@ -60,7 +60,7 @@ Outputs
 :New clusters of workshops: A set of clusters. Each cluster contains a set of
                             workshops, including the newly added mmachines.
 
-:New diagonalized PMIM: A *n*x*m* matrix where *n* is the number of unique types 
+:New diagonalized PMIM: A *n* x *m* matrix where *n* is the number of unique types 
                         of workshops and *m* is the number of different parts. 
 
                         Each element of the matrix may contain:

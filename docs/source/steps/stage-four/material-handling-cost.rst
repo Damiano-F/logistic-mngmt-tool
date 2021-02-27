@@ -16,7 +16,7 @@ With the information about the specific costs of travelling in [€/meter] or
 Inputs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:From-to Chart: An *n*x*n* matrix where *n* is the number of unique types 
+:From-to Chart: An *n* x *n* matrix where *n* is the number of unique types 
                 of workshops or clusters. 
                 Each element contains an integer representing the inbound or 
                 outbound flows [travels/day] between a workshop or cluster and
@@ -52,7 +52,7 @@ Outputs
                                 material handling operations necessary to 
                                 complete the daily production.
 
-:Travel costs matrix:   An *n*x*n* matrix where *n* is the number of unique 
+:Travel costs matrix:   An *n* x *n* matrix where *n* is the number of unique 
                         types of workshops or clusters. 
                         Each element contains a value representing the cost of
                         one travel from and to a cluster or workshop and all

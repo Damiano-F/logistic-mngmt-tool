@@ -35,7 +35,7 @@ Inputs
             operational. 
             Down times can occur because of machine failures or maintenance.
 
-:PMIM:  A *n*x*m* matrix where n is the number of unique types of workshops and 
+:PMIM:  A *n* x *m* matrix where n is the number of unique types of workshops and 
         m is the number of different parts. 
 
         Each element of the matrix may contain:
@@ -52,7 +52,7 @@ Inputs
 Outputs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Takt Times:  A *n*x*m* matrix where n is the number of unique types of 
+:Takt Times:  A *n* x *m* matrix where n is the number of unique types of 
               workshops and m is the number of different parts.
             
               - Let i be the index of unique parts, i=1,...,m

@@ -23,7 +23,7 @@ as KPIs.
 Inputs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Clustered PMIM:  A *n*x*m* matrix where *n* is the number of unique types of 
+:Clustered PMIM:  A *n* x *m* matrix where *n* is the number of unique types of 
                   workshops and *m* is the number of different parts. 
 
                   Each element of the matrix may contain:
@@ -46,7 +46,7 @@ Inputs
 Outputs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Diagonalized PMIM: A *n*x*m* matrix where *n* is the number of unique types of 
+:Diagonalized PMIM: A *n* x *m* matrix where *n* is the number of unique types of 
                     workshops and *m* is the number of different parts. 
 
                     Each element of the matrix may contain:

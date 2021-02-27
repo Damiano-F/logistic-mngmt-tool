@@ -30,7 +30,7 @@ Inputs
                     Every entry reports both the type and the quantity of the 
                     materials required.
 
-:PMIM:  A *n*x*m* matrix where n is the number of unique types of workshops and 
+:PMIM:  A *n* x *m* matrix where n is the number of unique types of workshops and 
         m is the number of different parts. 
 
         Each element of the matrix may contain:

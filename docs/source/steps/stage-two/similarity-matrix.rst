@@ -16,7 +16,7 @@ different machines, but the end result is always the similarity matrix.
 Inputs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:PMIM:  A *n*x*m* matrix where *n* is the number of unique types of workshops 
+:PMIM:  A *n* x *m* matrix where *n* is the number of unique types of workshops 
         and *m* is the number of different parts. 
 
         Each element of the matrix may contain:
@@ -39,7 +39,7 @@ Inputs
 Outputs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:Similarity matrix: An *n*x*n* matrix where *n* is the number of unique types 
+:Similarity matrix: An *n* x *n* matrix where *n* is the number of unique types 
                     of workshops. 
                     Each element contains a value between 0 and 1 representing 
                     the estimate of the similarity between two different 

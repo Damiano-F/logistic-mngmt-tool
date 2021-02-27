@@ -1,0 +1,26 @@
+# Example YAML BoM
+products:
+  # PRODUCT 1
+  - name:
+    id:
+    phases:
+      - name:
+        workshop:
+        setup:
+        machining:
+        load:
+        store:
+      - name:
+        workshop:
+        setup:
+        machining:
+        load:
+        store:
+    recipe:
+      - id:
+        quantity:
+      - id:
+        quantity:
+  # PRODUCT 2
+  - name:
+    id:

@@ -1,8 +1,6 @@
 Workshop
 --------------------------------------------------------------------------------
 
-Description: 
-
 A set of identical machines sharing the same location in the plant layout.
 
 Properties:

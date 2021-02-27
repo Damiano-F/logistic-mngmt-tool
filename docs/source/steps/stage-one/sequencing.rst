@@ -55,7 +55,7 @@ Inputs
                                     each workshop, the sum of all the machinig 
                                     times over one day.
 
-:Takt Times:    A *n*x*m* matrix where n is the number of unique types of 
+:Takt Times:    A *n* x *m* matrix where n is the number of unique types of 
                 workshops and m is the number of different parts.
             
                 - Let i be the index of unique parts, i=1,...,m

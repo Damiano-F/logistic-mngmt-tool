@@ -1,13 +1,10 @@
 Vehicle
 --------------------------------------------------------------------------------
 
-Description:
-
 A tool used to perform material handling operations.
 
 Constructor:
 
-Created in step "From-to Chart Formation".
 Requires ...
 
 Properties:
