@@ -7,18 +7,25 @@ A tool used to perform material handling operations.
 
 Constructor:
 
-Created in step x.
+Created in step "From-to Chart Formation".
 Requires ...
 
 Properties:
 
--   Speed
--   Pallet type (global)
--   Acceleration
--   Deceleration
--   Up-time given as % of total time
--   Costs [€/second] or [€/meter]
--   Pallet capacity [pallets/vehicles]
+-   Speed [local, constant]
+-   Pallet type [global, constant]
+-   Acceleration [local, constant]
+-   Deceleration [local, constant]
+-   Load/unload timings [local, constant]
+-   Up-time given as % of total time [local, constant]
+-   Costs [€/second] or [€/meter][(local, constant]
+-   Pallet capacity [pallets/vehicles] [local, constant]
 
 Use Cases:
+
+-    From-to Chart Formation
+
+Requirements:
+
+-   Must be unmutable
 

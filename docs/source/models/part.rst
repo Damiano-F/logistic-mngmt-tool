@@ -18,11 +18,11 @@ Requires ...
 Properties:
 
 -   :Name: [local, constant]
--   ID
--   Production cycle
--   Bill of Materials
--   Daily demand
--   Pieces per pallet
+-   ID [local, constant]
+-   Production cycle [local,constant]
+-   Bill of Materials [local, constant]
+-   Daily demand [local, constant]
+-   Pieces per pallet [local, constant]
 
 Use Cases:
 
@@ -52,6 +52,15 @@ Imput data can come in different formats.
 
 Properties:
 
--   One list for each composite part
+-   One list for each composite part [local, constant]
 -   Each list reports the required parts and theirs respective quantities in 
-    order to assemble a single composite part
+    order to assemble a single composite part [local, constant]
+
+Use Cases:
+
+-   Machines Estimate
+-   Operators Assignment
+-   PMIM Formation
+-   Takt Time 
+-   From-to Chart Formation
+-   

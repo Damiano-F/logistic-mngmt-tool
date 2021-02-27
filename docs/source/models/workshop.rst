@@ -7,15 +7,15 @@ A set of identical machines sharing the same location in the plant layout.
 
 Properties:
 
--   Name
--   ID
--   Type of machines
--   Number of machines (init. at 0)
--   Number of operators (init. at 0)
--   Shifts
--   Machine cost
--   Storage area
--   Coordinates inside the layout ???
+-   Name [local, constant]
+-   ID [local, constant]
+-   Type of machines [local, constant]
+-   Number of machines (init. at 0) [local, variable]
+-   Number of operators (init. at 0) [local, variable]
+-   Shifts [local, constant]
+-   Machine cost [local, constant]
+-   Storage area [local, constant]
+-   Coordinates inside the layout ??? [local, constant]
 
 Use Cases:
 

@@ -14,6 +14,10 @@ Definition:
 PMIM behaves like a pandas.DataFrame where columns labels refer to parts and
 rows labes refer to workshops. 
 
+Properties:
+
+-       Cell elements [local, constant]
+
 Used in steps: 
 
 -   Evaluation of Machines Duplication Options

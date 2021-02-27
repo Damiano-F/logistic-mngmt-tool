@@ -7,7 +7,7 @@ Ordered sequence of couples of workshops and production timings.
 
 Properties:
 
-- Associated to a unique part
+- Associated to a unique part [local, constant]
 
 Use Cases:
 
@@ -34,11 +34,11 @@ A single step in the production cycle of a material part.
 
 Properties:
 
--   ID
--   machining timing
--   operator timing
--   setup timing
--   placing timing
+-   ID [local, constant]
+-   machining timings [local, constant]
+-   operator timings [local, constant]
+-   setup timing [local, constant]
+-   placing timings [local, constant]
 
 Use Cases:
 
