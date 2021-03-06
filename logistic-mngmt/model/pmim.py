@@ -14,10 +14,10 @@ class pmim (pd.DataFrame):
             partsID.append(i.id)
 
         unique_partsID= list(unique_everseen(partsID))
-        return print("List of unique parts: ", unique_partsID)
+        print("List of unique parts: ", unique_partsID)
 
         multiples= list(unique_everseen(duplicates(partsID)))
-        return print("List of multiple parts: ", multiples)
+        print("List of multiple parts: ", multiples)
 
         if len(multiples)!=0:
             raise Exception("Part IDs must be unique. Check imput data for parts sharing same ID")
