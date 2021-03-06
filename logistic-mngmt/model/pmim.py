@@ -3,7 +3,7 @@ from iteration_utilities import unique_everseen, duplicates
 from itertools import chain
 
 
-class pmim (pd.DataFrame):
+class Pmim (pd.DataFrame):
 
 # rows are a list of workshops, columns are a list of products
     def __init__(self, parts):

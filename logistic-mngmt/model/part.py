@@ -2,10 +2,10 @@
 
 class ProductionPhase:
 
-    def __init__(self, partID, phaseID, workshopID, machTiming, opTiming, 
+    # cancelled partID
+    def __init__(self, phaseID, workshopID, machTiming, opTiming, 
                     placingTiming, nPlacings, setupTiming)
 
-        self.partID= partID
         self.phaseID= phaseID
         self.workshopID= workshopID
         self.machTiming= machTiming
@@ -19,20 +19,27 @@ class ProductionPhase:
 class ProductionCycle:
 
     # phases is a list of ProductionPhase objects, ordered by phaseID
-    def __init__(self, partID, phases)
+    def __init__(self, phases)
 
-        self.partID= partID
         self.phases= phases
+        self.__partID= "unidentified"
 
+    @property
+    def partID(self):
+        return self.__partID
 
+    @partID.setter
+    def partID(self, partID):
+        self.__partID= partID
 
 class Part:
 
     # id is partID 
-    def __init__(self, id, cycles, bom, demand, per_pallet):
+    def __init__(self, id, cycle, bom, demand, per_pallet):
 
         self.id= id
         self.cycle= cycle
+        self.cycle.partID= id
         self.bom= bom
         self.demand= demand
         self.per_pallet= per_pallet
