@@ -1,7 +1,7 @@
 Production cycle
 --------------------------------------------------------------------------------
 
-Ordered sequence of couples of workshops and production timings.
+An ordered sequence of production phases.
 
 Properties:
 

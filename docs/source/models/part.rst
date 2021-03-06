@@ -13,7 +13,13 @@ Subtypes:
 
 Constructor:
 
-Requires ...
+Requires:
+
+-   ID
+-   Production cycle
+-   Bill of Materials
+-   Daily demand
+-   Pieces per pallet
 
 Properties:
 
